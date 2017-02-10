@@ -1,0 +1,29 @@
+{
+  "name": "facebook-chatbot-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "fb-bot-framework": "^0.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js | bunyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machad0/facebook-chatbot-sample.git"
+  },
+  "author": "Lucas Machado Figueira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/machad0/facebook-chatbot-sample/issues"
+  },
+  "homepage": "https://github.com/machad0/facebook-chatbot-sample#readme"
+}
